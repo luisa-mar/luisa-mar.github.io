@@ -103,10 +103,22 @@
   flex-direction: column;
   margin: auto;
   }
+.style-checkout p{
+  margin: 150px 0 5% 2%;
+  font-family:"ClassGarmnd BT","Times New Roman",serif;
+font-size: 17px;
+text-align: center;
+color: #333;
+}
+.style-checkout a{
+  margin: 0 0 5% 2%;
+  font-family:"ClassGarmnd BT","Times New Roman",serif;
+font-size: 17px;
+text-align: center;
+color: #333;
+}
+  hr {
+    border: 1px solid #333;
+  margin: 2% 2% -8% 2%
 
-
-
-
-
-
-  
+  }
