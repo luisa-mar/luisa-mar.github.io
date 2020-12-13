@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family:"ClassGarmnd BT","Times New Roman",serif;
+    
   
  
   }
@@ -13,7 +13,7 @@ a {text-decoration: none;}
 /*Navigation Bar*/
 .topnav {
  background-color: #333;
- overflow: auto;
+ overflow: auto; /*If there is overlapping text you will be able to see it after scrolling*/
  border-collapse: separate;
  border-spacing: 10px;
 }
@@ -21,15 +21,19 @@ a {text-decoration: none;}
   float: left;
   color: #f2f2f2;
   text-align: center;
+  /*the margin creates space around an element*/
+  margin-left: 10%;
+  /*the padding creates space on the inside of the borders set in place by the margins*/
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: none; /*the default style is removed*/
   font-size: 17px;
   table-layout: auto;
-  margin-left: 10%;
+
   font-family:"ClassGarmnd BT","Times New Roman",serif;
 }
+/*Hover is a function set by css for when you hover over a text, link or image*/
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #ddd; /*diffrent color*/
   color: #333;}
 .topnav a.active {
   background-color: #fdf1f1;
@@ -62,6 +66,7 @@ body{
     overflow: auto;
     background-color:#fdf1f1;
    flex-direction: column; }
+/*The .content wrapper styles elements in the html with the same class name*/
 .content-wrapper{
     width: 100%;
     margin: 0% 2% 15% 0%;}
@@ -87,13 +92,14 @@ body{
     margin-top: 6%;
     margin-bottom: 12%;
     margin-right: 7%;} 
+/*background Image*/
 .index-img{
     width: 100%;
     padding:0px;
   opacity: 100%;
   margin-bottom: auto;
 background-color: rgb(24, 21, 21);}
-/*See More*/
+/*See More Buttons*/
 .text-wrapper a {
 text-align: center;
 vertical-align: bottom;

@@ -2,7 +2,8 @@
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  
+  *{font-family:"ClassGarmnd BT","Times New Roman",serif;
+    }
   .column {
     float: left;
     width: 33.3%;
