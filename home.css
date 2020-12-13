@@ -1,0 +1,272 @@
+.box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: auto;
+    min-width: 262px;
+    max-height: auto;
+    height: 200px;
+    margin: -40px 0 0 0;
+    /* margin-bottom: 8%; */
+    text-align: center;
+    font-family: arial;
+    background-color: rgb(248, 246, 246);
+    /* position: absolute; */
+    top: 102px;
+} 
+  
+  .box img{ 
+  max-width: 100%;
+  height: 200px;
+  object-fit: contain;
+  float: left;
+  clear: right;
+  }
+  .right {
+      position: absolute;
+      right: 0px;
+      top: auto;
+  }
+  .left {
+    position: absolute;
+    left: 0%;
+    top: auto; 
+  }
+   script{
+  display: inline;
+  max-width: 100%;
+  height: auto;
+  }
+  .words {
+      margin-top: 40px;
+      padding-top: 50px;
+  }
+  .words hr {
+      width: 20%;
+      margin: 10px auto 10px auto;
+      border: 1px solid #ddd;
+  }
+  .words p {
+    text-align: center;
+    font-family:"ClassGarmnd BT","Times New Roman",serif;}
+
+
+
+    /*Bullet Links*/
+.bullets a{
+      margin-bottom: 2%;
+      text-align: center;
+      color: #333;
+      font-size: 20px;
+      font-family:"ClassGarmnd BT","Times New Roman",serif;
+ }
+ .bullets p {
+     margin-bottom: 1%;
+ }
+.bullets {
+    margin-top: 3%;
+    margin-left: 5%;
+   
+}
+
+.arrow {
+    width: 20px;
+    object-fit: contain;
+  float: left;
+  clear: right;
+  
+  
+}
+
+.arrow-right {
+    /* width: 20px;
+    position: absolute;
+    right: 0px;
+    margin-right: 6%;
+    margin-top: 20%; */
+    float: right;
+    width: 20px;
+    padding-top: 180px;
+    padding-right: 10px;
+
+}
+.arrow-left {
+    /* 
+  position: absolute;
+  left: 0%;
+  top: auto;
+  margin-left: 6%; 
+  margin-top: 20%; */
+  float: left;
+  width: 20px;
+  padding-top: 180px;
+  padding-left: 10px;
+
+}
+
+
+.frontimage-wrapper {
+    width:100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 262px;
+
+ }
+
+.frontimage-wrapper-fancy {
+    width: 100%;
+    max-width: 95%;
+    min-height: 12rem;
+    /* max-height: 30%;  */
+    /* height: 500px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 8%;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background-color:rgb(248, 246, 246) ;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    overflow: hidden;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+            box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+}
+.frontimage-wrapper-fancy:hover {
+    -webkit-transform: translate(0px, -2px);
+        -ms-transform: translate(0px, -2px);
+            transform: translate(0px, -2px);
+    -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+            box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);}
+/*             
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 262px;
+    max-height: 300px;
+    margin-top: 7%;
+    margin-bottom: 8%;
+    text-align: center;
+    font-family: arial;
+    background-color:rgb(248, 246, 246) ;}  */
+
+.frontimage {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 400px;
+    height: auto;
+    object-fit: contain;
+  }
+
+ h5{
+    font-family:"ClassGarmnd BT","Times New Roman",serif;
+     margin-right: 3%;
+     margin-bottom: 2%;
+     color:black;
+     text-align: right;
+    
+     margin-top: -7%;}
+/*News*/
+
+ h2 {
+  font-family:"ClassGarmnd BT","Times New Roman",serif;
+   margin-left: 3%;
+   margin-bottom: 2%;
+   margin-top: 8%;
+   color:black;
+   font-size: 30px;
+   }
+  
+     
+/* .post {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 1080px;
+    min-width: 262px;
+    max-height: 30%;
+    height: 300px;
+    text-align: left;
+    font-family:"ClassGarmnd BT","Times New Roman",serif;
+    margin: 0% 10% 5% 3%;
+    padding: 2%;
+    background-color: rgb(252, 250, 250);
+   } */
+.news img{
+  max-height: 100%;
+  height: auto;
+  object-fit: contain;
+  float: left;
+  clear: left;
+  margin-right: 2%;
+}
+
+.news p{
+    display: inline;
+    margin-top: 50px;
+    max-width: 100%;
+    font-family:"ClassGarmnd BT","Times New Roman",serif;
+    padding: 20px 3% 2% 0%;
+}
+
+.news {
+    width: 100%;
+    max-width: 95%;
+    min-height: 11rem;
+    max-height: 30%;
+    height: 300px;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    overflow: hidden;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+            box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+  }
+  
+  .news:hover {
+    -webkit-transform: translate(0px, -2px);
+        -ms-transform: translate(0px, -2px);
+            transform: translate(0px, -2px);
+    -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+            box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);}
+
+.news-box {
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
