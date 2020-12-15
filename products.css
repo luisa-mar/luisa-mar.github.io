@@ -100,8 +100,9 @@ h6 {
 }
 .text-card p {
   margin-top: auto;
-  margin-bottom: 1%;
+  margin-bottom: auto;
   text-align: left;
+  font-size: 14px;
   font-family:"ClassGarmnd BT","Times New Roman",serif;
 
 }

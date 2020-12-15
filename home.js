@@ -1,7 +1,7 @@
 let images = [
     "img/schweben/Schweben-Close.jpeg",
     "img/schweben/Schweben3.jpeg",
-    "img/schweben/Schweben4.jpeg",
+    "img/schweben/schweben4.jpeg",
     "img/schweben/Schweben.jpg",
     "img/schweben/Sommer See.jpg",
     "img/schweben/IMG_5_schweben.png",
