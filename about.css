@@ -4,6 +4,12 @@
   }
   *{font-family:"ClassGarmnd BT","Times New Roman",serif;
     }
+    body{
+      width: 100%;
+      height: auto;
+      overflow: auto;
+      background-color:#fdf1f1;
+     flex-direction: column; }
   .column {
     float: left;
     width: 33.3%;
@@ -68,7 +74,6 @@ font-family:"ClassGarmnd BT","Times New Roman",serif;
   position: static;
   display: block;
   margin: 0 0 8% 57%;
-  /* float: right; */
   padding: 0 5% 0 0;
   text-justify: inter-character;
   font-family:"ClassGarmnd BT","Times New Roman",serif;
