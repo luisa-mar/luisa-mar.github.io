@@ -4,6 +4,7 @@
     height: auto; */
     overflow: auto;
     background-color:#fdf1f1;
+    margin-right: 5%;
    /* flex-direction: column;*/ } 
 .code {
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -14,7 +15,7 @@
   min-height: 11rem;
   max-height: 30%;
   height: 500px;
-  margin: 1% 2% 2% 2%;
+  margin: 1% 10% 2% 2%;
   text-align: center;
   overflow: auto;
 }
@@ -60,7 +61,7 @@
   display: block;
   margin: 0 0 1% 57%;
   padding: 0 5% 0 0;
-  text-justify: inter-character;
+  text-align: justify;
   font-family:"ClassGarmnd BT","Times New Roman",serif;
 /* text-align: left;
 display: inline;

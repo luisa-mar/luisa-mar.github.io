@@ -29,15 +29,24 @@
    </nav>
 
 <!--Code Texts-->
+<a href="#erl">Erl&auml;uterungen</a>
+<a href="#eleminfo">Elementeninformation</a>
+<a href="#Finder">Finder</a>
+<a href="#startinfo">Information um die Website zu starten</a>
+<a href="#navbar">Navigationbar</a>
+<a href="#navbarcss">Navigationbar CSS</a>
+<a href="#lmb">Index Body</a>
+
 <div class="code">
-<h3>Erl&auml;uterungen</h3>
+<h3 id="erl">Erl&auml;uterungen</h3>
 <img src="img/b/chrome elementeninformation.png">
 <img src="img/b/safari elementeninformation.png">
 <p>Auf dieser Seite werde ich versuchen Ihnen den Text, der die Website von Grund auf mit Hintergrundfunktionen und stilistischen &Auml;nderungen aufbaut, visuell n&auml;her zu bringen. </p>
 <p>Als erstes m&ouml;chte ich Sie darauf Aufmerksam machen, dass Sie auf jeder Website den Code sehen k&ouml;nnen, indem sie in der Men&uuml;leiste in Chrome auf "Anzeigen-Entwickler-Quelltext anzeigen" gehen oder in Safari unter "Entwickler-Webinformationen einblenden" klicken. </p>
 </div>
 
-<div class="code"> <h3>Elementeninformation</h3>
+<div class="code"> 
+    <h3 id="eleminfo">Elementeninformation</h3>
 <img src="img/b/chromebar.png">
 <img src="img/b/elementblabla.png">
 <img src="img/b/split.png">
@@ -46,10 +55,10 @@
 </div>
 
 <div class="code">
-<h3>Finder</h3>
+<h3 id="Finder">Finder</h3>
 <img src="img/b/Finder pages.png">
-<p>Meine Website startete als erstes mit einem Tutorial: <a href="https://www.maketecheasier.com/create-blank-text-file-mac/">„Create a New Blank Text File in Any Folder on Your Mac“</a>
-Mit diesem Tutorial schrieb ich meinen ersten Code für ein App, welches leere Textfiles im Finder erstellt.</p>
+<p>Meine Website startete als erstes mit einem Tutorial: <a href="https://www.maketecheasier.com/create-blank-text-file-mac/">Create a New Blank Text File in Any Folder on Your Mac</a>
+Mit diesem Tutorial schrieb ich meinen ersten Code f&uuml;r ein App, welches leere Textfiles im Finder erstellt.</p>
 <p>Mit meinem neuen App konnte ich im Finder neue Files erstellen, welche ich mit den Endungen html, cssund js umbenannt habe. Bsp: index.html. 
 Die Endungen stehen f&uuml;r die jeweilige Sprache in der der Code geschrieben wird. </p> 
 <P>Im HTML steht der gesamte Inhalt mit Texten, Bildern, Links etc. In CSS werden die Elemente aus dem HTML gestylt.
@@ -57,34 +66,42 @@ Und Uu komplexe Funktionen auf Webseiten zu implementieren wird JavaScript einge
 </div>
 
 <div class="code">
-<h3>Information to start the Website</h3>
+<h3 id="startinfo">Information um die Website zu starten</h3>
 <img src="img/b/Bildschirmfoto 2020-12-13 um 21.59.55.png">
-<p>At the very beginning we must tell our editor in what language we will be writing.
-With the title we give our website a name
-and with the following links we connect our website to the css code as well as the font sources.</p>
+<p>Die erste Linie Code sagt dem TextEditor, dass wir mit HTML Code schreiben werden. So werden vorprogrammierte "tags" wie "div" freigeschaltet. </p>
+<p>Im "head" benennt man mit dem "title" tag die Website und verbindet mit dem "link" tag die CSS Seiten, welche diese spezifische HTML Seite stylen sollten. (rel=relation) Sonstige Links von zb. externen Fonts m&uuml;ssen ebenfalls im head stehen.
+</p>
 <div class="code-script">
 <script src="https://gist.github.com/luisa-mar/f3a20a769bdca82deccf31932f68920c.js"></script></div>
 </div>
 
 <div class="code">
-<h3>Navigation Bar HTML</h3>
+<h3 id="navbar">Navigationbar HTML</h3>
 <img src="img/b/Bildschirmfoto 2020-12-13 um 21.52.38.png">
-<p>F&uuml;r die Navigationbar erstellte ich eine Tabelle in der ich mit dem "a href=" tag Links zu den anderen Seiten einfügen konnte.</p>
+<p>F&uuml;r die Navigationbar erstellte ich eine Tabelle in der ich mit dem "a href=" tag Links zu den anderen Seiten einf&uuml;gen konnte.</p>
 <p>Alle Links sind in einer Class gruppiert, damit sie im CSS  gleich gestylt werden.</p>
-<p>Class="active" steht für die aktuell ge&ouml;ffnete Seite. Sie erh&auml;lt im CSS einen farbigen Hintergrnud.</p>
+<p>Class="active" steht f&uuml;r die aktuell ge&ouml;ffnete Seite. Sie erh&auml;lt im CSS einen farbigen Hintergrnud.</p>
 <div class="code-script"><script src="https://gist.github.com/luisa-mar/68ecea98dd96587de62506b008a2bd25.js"></script></div>
 </div>
 
 <div class="code">
-<h3>Navigation Bar CSS</h3>
+<h3 id="navbarcss">Navigationbar CSS</h3>
 <img src="img/b/navbar-css.png">
-<p>Ohne CSS würde die Navbar komplett anders aussehen. Im CSS habe ich die Platzierung geregelt, die Farbe, was geschieht, wenn man mit der Maus darüber fährt etc. </p>
+<p>Ohne CSS w&uuml;rde die Navbar komplett anders aussehen. Im CSS habe ich die Platzierung geregelt, die Farbe, was geschieht, wenn man mit der Maus dar&uuml;ber f&auml;hrt etc. </p>
 <div class="code-script"><script src="https://gist.github.com/luisa-mar/b618eb0f60f9fa83ff7acb15ee57491a.js"></script></div>
 </div>
 
+
+
+
+
 <div class="code">
-<h3>Main Page</h3>
+<h3 id="lmb">Index Body</h3>
 <img src="img/b/index-img.png">
+<p>Auf meiner Startseite habe ich ein Hintergrundbild gew&auml;hlt, welches die ersten Zeilen Code aus meinem SublimeText-TextEditor zeigt. Es ist ebenfalls im "zhdk_website" Ordner unter einem neuen "img" Ordner abgelegt, damit mein HTML Programm dieses Bild findet.</p>
+<p> Um Text &uuml;ber das Bild zu legen habe ich das Bild, sowie den Text in die selbe class gruppiert und den Text in eine weitere class gesetzt, damit ich ihn im CSS bearbeiten kann. </p>
+<p> Ein "h" tag mit einer Nummer zwischen 1-6 steht f&uuml;r einen Titel, ein "p" tag f&uuml;r einen Text.
+</p>
 <div class="code-script"><script src="https://gist.github.com/luisa-mar/77a1bd77936cef59016bb72df846564c.js"></script>
 <script src="https://gist.github.com/luisa-mar/292a66c8174b75c10cf85de0111a9afd.js"></script></div>
 </div>
