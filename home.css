@@ -231,8 +231,16 @@ body{
     max-width: 100%;
     font-family:"ClassGarmnd BT","Times New Roman",serif;
     padding: 20px 3% 2% 0%;
+    color: #333;
 }
-
+.news a{
+    display: inline;
+    margin-top: 50px;
+    max-width: 100%;
+    font-family:"ClassGarmnd BT","Times New Roman",serif;
+    padding: 20px 3% 2% 0%;
+    color: #333;
+}
 .news {
     width: 100%;
     max-width: 95%;
