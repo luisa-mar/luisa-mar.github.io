@@ -53,26 +53,7 @@ a {text-decoration: none;}
     margin-right: 7%;
   }
 
-  /*Navigation Bar*/
-  .midnav {
-    background-color: rgb(223, 211, 211);
-    overflow: scroll;
-    margin-right: auto;
-    margin-left: auto;
-
-  }
-  .midnav a {
-    float: left;
-    color: #333;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  .midnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+  
 
 
   /*"See More" Button*/
@@ -114,7 +95,7 @@ text-align: center;
 color: #333;
 }
 .style-checkout a{
-  margin: 0 0 5% 2%;
+  margin: 0 0 20% 2%;
   font-family:"ClassGarmnd BT","Times New Roman",serif;
 font-size: 17px;
 text-align: center;
