@@ -1,6 +1,6 @@
 let images = [
-    "img/book/book1.jpg",    
-    "img/book/book2.jpg",
+    "img/book/front-page-adventure-in-peru.jpg",
+    "img/book/book1.jpg",  
     "img/book/a-out-007.jpg",
     "img/book/b-out-000.jpg",
     "img/book/book3.jpg",
