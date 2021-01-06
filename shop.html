@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="products.css">
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="home.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="code.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@300&family=Source+Serif+Pro:wght@200&display=swap" rel="stylesheet">
     </head>
    <!-- this is a test part-->
@@ -20,7 +23,6 @@
   <table class="topnav" cellspacing= "5" cellpadding= "5">
   <tr>
    <td><a href="index.html"> <img class= "index-logo" src="img/Luisa Logo.PNG" alt="LOOPS" title="Food You Can Trust"></a></td></div>
-   <td><a href="code.html">Code</a></td>
    <td><a class="active" href="shop.html">Shop</a></td>
    <td><a href="about.html">About</a></td>  
    <td><a href="cart.html">Cart</a></td>   
@@ -29,16 +31,23 @@
   </table>
  </nav>
 
-
- <div class="box">
-  <div class="left"><img src="img/Flower links.jpeg"></div>
-  <div class="right"><img src="img/Flower rechts.jpeg"></div>
-  <div class="words">
-  <p>Luisa Marie Blom</p>
-  <hr/>
-  <p>Artist based in Zurich</p>
-  </div>
-  </div>
+<!--Menubar-->
+ <div class="codebar">
+  <div class="dropdown">
+    <button class="dropbtn">Index 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#erl">Code</a>
+      <a href="#eleminfo">Elementeninformation</a>
+      <a href="#Finder">Finder</a>
+      <a href="#startinfo">Information um die Website zu starten</a>
+      <a href="#navbar">Navigationbar</a>
+      <a href="#navbarcss">Navigationbar CSS</a>
+      <a href="#lmb">Index Body</a>
+    </div>
+  </div> 
+</div>
 
   <div class="basket">
     
@@ -66,14 +75,13 @@
     <p>A Childrens Book About Deforestation</p>
     <p>Hardback Copy</p>
     <p>December 2019</p>
-   </div> 
-   <p class="price"> A4</p>
+    <p> A4</p> 
+  </div>
    <p class="price"> 37CHF</p>
      <td> <p><img class='shoppingbtn' src="img/shopping-cart.png"></p>  </td>
     </div>
 
 <!--Product 1-->
-<div class="container">
 <div class="card">
   <img src="img/kuss.jpeg" alt="Original Painting" style="width:100%"> 
     <h6 class="card-title">a kiss</h6>
@@ -81,23 +89,11 @@
   <p>Original Painting</p>
   <p>Acrylic on Cardboard</p>
   <p>November 2020</p>
+ <p> 30cm x 30cm</p>
  </div> 
- <p class="price"> 30cm x 30cm</p>
    <td> <p><img class='shoppingbtn' src="img/shopping-cart.png"></p>  </td>
   </div>
- 
-<!--Product 2-->
-  <div class="card">
-    <img src="img/schweben/Schweben-Close.jpeg" alt="Original Painting" style="width:100%">
-    <h6 class="card-title">close</h6>
- <div class="text-card">
-    <p>Original Painting</p>
-    <p>Acrylic on Cardboard</p>
-    <p>September 2020</p>
-    </div >
-<p class="price">15cm x 15cm</p>
-    <td> <p><img class='shoppingbtn' src="img/shopping-cart.png"></p>  </td>
-  </div>
+
   <!--P 9-->
 <div class="card">
   <img src="img/Tumult.jpeg" alt="Original Painting" style="width:100%">
@@ -106,10 +102,36 @@
   <p>Original Painting</p>
   <p>Acrylic on Wood</p>
   <p>2020</p>
- </div>
- <p class="price">ca. 110cm x 65cm</p>
+ <p>ca. 110cm x 65cm</p>
+</div>
 <p class="price"> <a class="price" href="mailto:blomluisa@gmail.com?subject=Loops"><img class='shoppingbtn' src="img/shopping-cart.png"></a></p>
 </div>
+<!--Product Sculpture-->
+<div class="card">
+  <img src="img/skulptur.jpg" alt="Archiskulptur" style="width:100%">
+  <h6 class="card-title">Archiskulptur</h6>
+  <div class="text-card">
+  <p>Original Clay Sculpture</p>
+  <p>Glazed clay</p>
+  <p>2018</p>
+  <p>15cm x 10cm x 10cm</p>
+ </div>
+  <p class="price"> <a class="price" href="mailto:blomluisa@gmail.com?subject=Loops"><img class='shoppingbtn' src="img/shopping-cart.png"></a></p>
+</div>
+
+<!--Product 2-->
+  <div class="card">
+    <img src="img/schweben/Schweben-Close.jpeg" alt="Original Painting" style="width:100%">
+    <h6 class="card-title">close</h6>
+ <div class="text-card">
+    <p>Original Painting</p>
+    <p>Acrylic on Cardboard</p>
+    <p>September 2020</p>
+<p>15cm x 15cm</p>
+  </div >
+    <td> <p><img class='shoppingbtn' src="img/shopping-cart.png"></p>  </td>
+  </div>
+
 <!--P 10-->
 <div class="card">
   <img src="img/schweben/Schweben.jpg" alt="Original Painting" style="width:100%">
@@ -118,8 +140,8 @@
   <p>Original Painting</p>
   <p>Acrylic on Wood</p>
   <p>2020</p>
- </div>
- <p class="price">ca. 110cm x 65cm</p>
+  <p>ca. 110cm x 65cm</p>
+</div>
 <p class="price"> <a class="price" href="mailto:blomluisa@gmail.com?subject=Loops"><img class='shoppingbtn' src="img/shopping-cart.png"></a></p>
 </div>
 
@@ -131,8 +153,8 @@
     <p>Poster of Original Painting A3</p>
     <p>Acrylic on Cardboard</p>
     <p>2018</p>
-    </div>
-    <p class="price">20cm &oslash;</p>
+    <p>20cm &oslash;</p>
+  </div>  
     <p class="price"> <a class="price" href="mailto:blomluisa@gmail.com?subject=Loops"><img class='shoppingbtn' src="img/shopping-cart.png"></a></p>
   </div>
 
@@ -144,8 +166,8 @@
     <p>Original Painting</p>
     <p>Acrylic on Cardboard</p>
     <p>2018</p> 
-    </div>
-    <p class="price">20cm &oslash;</p>
+    <p>20cm &oslash;</p>
+  </div>
   <td> <p><img class='shoppingbtn' src="img/shopping-cart.png"></p>  </td>
   </div>
   
@@ -157,8 +179,8 @@
     <p>Original Painting</p>
     <p>Acrylic on Cardboard</p>
     <p>2019</p>
-    </div>
-    <p class="price">20cm &oslash;</p>
+    <p>20cm &oslash;</p>
+  </div>
    <td> <p><img class='shoppingbtn' src="img/shopping-cart.png"></p>  </td>
   </div>
 
@@ -171,8 +193,8 @@
    <p>Original Painting</p>
   <p>Watercolor on Plastik</p>
   <p>2018</p>
-  </div>
-  <p class="price">7cm &oslash;</p>
+  <p>7cm &oslash;</p>
+</div>
   <td> <p><img class='shoppingbtn' src="img/shopping-cart.png"></p>  </td>
 </div>
 <!--P 7-->
@@ -183,8 +205,8 @@
   <p>Original Painting</p>
   <p>Watercolor on Paper</p>
   <p>2020</p>
- </div>
-  <p class="price">400 CHF</p>
+ <p>A4</p>
+  </div>
   <td> <p><img class='shoppingbtn' src="img/shopping-cart.png"></p>  </td>
 </div>
 
@@ -196,8 +218,8 @@
   <p>Original Painting</p>
   <p>Watercolor on Paper</p>
   <p>2020</p>
-  </div>
-<p class="price">400 CHF</p>
+  <p>A4</p>
+</div>
   <td> <p><img class='shoppingbtn' src="img/shopping-cart.png"></p>  </td>
 </div>
 

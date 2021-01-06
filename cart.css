@@ -89,14 +89,14 @@ a {text-decoration: none;}
   }
 .style-checkout p{
   margin: 150px 0 5% 2%;
-  font-family:"ClassGarmnd BT","Times New Roman",serif;
+font-family: 'Open Sans', sans-serif;
 font-size: 17px;
 text-align: center;
 color: #333;
 }
 .style-checkout a{
   margin: 0 0 20% 2%;
-  font-family:"ClassGarmnd BT","Times New Roman",serif;
+font-family: 'Open Sans', sans-serif;
 font-size: 17px;
 text-align: center;
 padding: 10px 12px ;

@@ -62,7 +62,7 @@
   margin: 0 0 1% 57%;
   padding: 0 5% 0 0;
   text-align: justify;
-  font-family:"ClassGarmnd BT","Times New Roman",serif;
+font-family: 'Open Sans', sans-serif;
 /* text-align: left;
 display: inline;
 max-width: 100%;
@@ -111,11 +111,13 @@ margin-left: 1px; */}
 
 .code h3 {
   padding: 0% 0 1% 0;
- margin: 1% 3% 1% 3%;}
+ margin: 1% 3% 1% 3%;
+ font-family: 'Open Sans', sans-serif;}
 
  .code h2 {
   padding: 2% 0 1% 0;
-  margin: 1% 3% 1% 3%;}
+  margin: 1% 3% 1% 3%;
+  font-family: 'Open Sans', sans-serif;}
 
 .explanation-text-code p {
   margin-top: 2%;}
@@ -144,7 +146,7 @@ margin: 0% 3% 5% 3%;}
   .codebar{
     overflow: hidden;
     background-color: #ca9e82;
-    font-family:"ClassGarmnd BT","Times New Roman",serif;
+  font-family: 'Open Sans', sans-serif;
   }
   
   /* Links inside the navbar */

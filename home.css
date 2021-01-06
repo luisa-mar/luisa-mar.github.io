@@ -27,6 +27,13 @@ body{
   float: left;
   clear: right;
   }
+  .box a img{ 
+    max-width: 100%;
+    height: 200px;
+    object-fit: contain;
+    float: left;
+    clear: right;
+    }
   .right {
       position: absolute;
       right: 0px;
@@ -53,7 +60,7 @@ body{
   }
   .words p {
     text-align: center;
-    font-family:"ClassGarmnd BT","Times New Roman",serif;}
+  font-family: 'Open Sans', sans-serif;}
 
 
 
@@ -63,8 +70,7 @@ body{
       text-align: center;
       color: #333;
       font-size: 20px;
-      font-family:"ClassGarmnd BT","Times New Roman",serif;
- }
+    font-family: 'Open Sans', sans-serif; }
  .bullets p {
      margin-bottom: 1%;
  }
@@ -184,8 +190,8 @@ body{
   }
 
  h5{
-    font-family:"ClassGarmnd BT","Times New Roman",serif;
-     margin-right: 3%;
+  font-family: 'Open Sans', sans-serif;    
+   margin-right: 3%;
      margin-bottom: 2%;
      color:black;
      text-align: right;
@@ -194,10 +200,10 @@ body{
 /*News*/
 
  h2 {
-  font-family:"ClassGarmnd BT","Times New Roman",serif;
-   margin-left: 3%;
+font-family: 'Open Sans', sans-serif;   
+margin-left: 3%;
    margin-bottom: 2%;
-   margin-top: 8%;
+   margin-top: 0%;
    color:black;
    font-size: 30px;
    }
@@ -211,8 +217,7 @@ body{
     max-height: 30%;
     height: 300px;
     text-align: left;
-    font-family:"ClassGarmnd BT","Times New Roman",serif;
-    margin: 0% 10% 5% 3%;
+  font-family: 'Open Sans', sans-serif;    margin: 0% 10% 5% 3%;
     padding: 2%;
     background-color: rgb(252, 250, 250);
    } */
@@ -229,19 +234,18 @@ body{
     display: inline;
     margin-top: 50px;
     max-width: 100%;
-    font-family:"ClassGarmnd BT","Times New Roman",serif;
-    padding: 20px 3% 2% 0%;
+  font-family: 'Open Sans', sans-serif;    padding: 20px 3% 2% 0%;
     color: #333;
 }
 .news a{
     display: inline;
     margin-top: 50px;
     max-width: 100%;
-    font-family:"ClassGarmnd BT","Times New Roman",serif;
-    padding: 20px 3% 2% 0%;
+  font-family: 'Open Sans', sans-serif;    padding: 20px 3% 2% 0%;
     color: #333;
 }
 .news {
+    font-size: 20px;
     width: 100%;
     max-width: 95%;
     min-height: 11rem;

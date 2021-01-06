@@ -61,8 +61,7 @@ body{
 flex-direction: row;
 flex-wrap: wrap;
 margin: 5% 3% 5% 3%;
-  font-family:"ClassGarmnd BT","Times New Roman",serif;
-
+font-family: 'Open Sans', sans-serif;
   }
   .card {
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
@@ -73,18 +72,16 @@ margin: 5% 3% 5% 3%;
   margin: auto;
   margin-bottom: 8%;
   text-align: center;
-  font-family:"ClassGarmnd BT","Times New Roman",serif;
-
+font-family: 'Open Sans', sans-serif;
   }
 .card-title {
  margin:auto;
- font-family:"ClassGarmnd BT","Times New Roman",serif;
-
+ font-family: 'Open Sans', sans-serif;
 }
 
+
 h6 {
-  font-family:"ClassGarmnd BT","Times New Roman",serif;
-   margin-top: auto;
+font-family: 'Open Sans', sans-serif;   margin-top: auto;
    color:black;
    text-align: left;
   font-size: 20px;
@@ -103,8 +100,7 @@ h6 {
   margin-bottom: auto;
   text-align: left;
   font-size: 14px;
-  font-family:"ClassGarmnd BT","Times New Roman",serif;
-
+font-family: 'Open Sans', sans-serif;
 }
 
 img.shoppingbtn {
