@@ -1,9 +1,6 @@
-body{
-    /* width: 100%;
-    height: auto; */
-    overflow: auto;
-    background-color:#fdf1f1;
-    margin-right: 5%;
+body{ 
+  overflow: auto; 
+  margin-right: 5%;
    /* flex-direction: column;*/ } 
 .peru {
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -18,7 +15,7 @@ body{
   padding-bottom: 2%;
   text-align: center;
   overflow: auto;
-  background-color: rgb(248, 246, 246);
+    background-color:white;
   -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;

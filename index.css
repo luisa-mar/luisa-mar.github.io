@@ -5,61 +5,65 @@
 *{
     padding: 0;
     margin: 0;
-    
-  
- 
   }
-a {text-decoration: none;}
 
+a {text-decoration: none;}
 
 
 /*HEAD*/
 /*Navigation Bar*/
-.topnav {
- background-color: #333;
- overflow: auto; /*If there is overlapping text you will be able to see it after scrolling*/
- border-collapse: separate;
- border-spacing: 10px;
-}
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  /*the margin creates space around an element*/
-  margin-left: 10%;
-  /*the padding creates space on the inside of the borders set in place by the margins*/
-  padding: 14px 16px;
-  text-decoration: none; /*the default style is removed*/
-  font-size: 17px;
-  table-layout: auto;
 
-font-family: 'Open Sans', sans-serif;}
+
+.topnav a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none; 
+  table-layout: auto;
+  font-family: 'Open Sans', sans-serif;}
+/* 
+  .topnav p {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    margin-left: 10%;
+    padding: 14px 16px;
+    text-decoration: none; 
+    font-size: 17px;
+    table-layout: auto;
+    font-family: 'Open Sans', sans-serif;} */
+
+ /* .topnav img {
+   display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    margin-left: 10%;
+    padding: 14px 16px;
+    text-decoration: none; 
+    font-size: 17px;
+    table-layout: auto;
+    font-family: 'Open Sans', sans-serif;} */
+
 /*Hover is a function set by css for when you hover over a text, link or image*/
-.topnav a:hover {
-  background-color: #ddd; /*diffrent color*/
-  color: #333;}
+
+
 .topnav a.active {
   background-color: #fdf1f1;
   color: #333;}
+.topnav p:hover {
+  background-color: #fdf1f1; /*diffrent color*/
+  color: #333;}
+.topnav img:hover {
+  background-color: #fdf1f1; /*diffrent color*/
+  color: #333;}
+  
 /*Search box*/
 .topnav input[type=text] {
   float: right;
   font-size:17px;
   color: white;
-  font-family:"ClassGarmnd BT","Times New Roman",serif;}
-.index-logo{
-  height: 50px;
-  margin-bottom: 0%;
-  background-color:#fdf1f1;
-  padding: 0px 0px ;}
-.right td {
-  position: absolute;
-  right: 0px;
-  top: auto;}
-.left {
-  position: absolute;
-  left: 0%;
-  top: auto;}
+  font-family: 'Open Sans', sans-serif;}
+
+
 
 
 /*BODY*/

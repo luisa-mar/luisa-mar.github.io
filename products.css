@@ -1,7 +1,8 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: inherit;
 }
 a {text-decoration: none;}
 
@@ -61,7 +62,7 @@ body{
 flex-direction: row;
 flex-wrap: wrap;
 margin: 5% 3% 5% 3%;
-font-family: 'Open Sans', sans-serif;
+
   }
   .card {
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
@@ -72,11 +73,11 @@ font-family: 'Open Sans', sans-serif;
   margin: auto;
   margin-bottom: 8%;
   text-align: center;
-font-family: 'Open Sans', sans-serif;
+
   }
 .card-title {
  margin:auto;
- font-family: 'Open Sans', sans-serif;
+
 }
 
 

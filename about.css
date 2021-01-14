@@ -8,7 +8,7 @@
       width: 100%;
       height: auto;
       overflow: auto;
-      background-color:#fdf1f1;
+      background-color:rgb(255, 251, 246);
      flex-direction: column; }
   .column {
     float: left;
