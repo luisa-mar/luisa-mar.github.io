@@ -171,14 +171,16 @@ margin: 0% 3% 5% 3%;}
 .dropdown img{
   width: 50px;
 }
-  
+.dropdown-code{
+  padding: 14px 16px;
+
+}
   /* Dropdown button */
   .dropdown .dropbtn {
     font-size: 16px; 
     border: none;
     outline: none;
     color:  #fdf1f1;
-    /* padding: 14px 16px; */
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
