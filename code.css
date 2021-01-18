@@ -52,8 +52,8 @@
   } */
 
 
-  .inlineimg {
-    display: inline-block;
+  .inline img {
+    /* display: inline-block; */
     float: left;
   }
  

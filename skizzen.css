@@ -4,10 +4,10 @@
     margin: 0;
 }
 .skizzen img{
-    width:40%;
+    width:30%;
     justify-content: space-between; /*will push content on left and right side to the far edges and have an even space between*/
     align-items: center;
-    padding: 30px 10%;
-    display: flex;
+    padding: 5% 5%;
+    display: inline;
 
 }
