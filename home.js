@@ -1,13 +1,13 @@
 let images = [
     "img/schweben/Schweben-Close.jpeg",
-    "img/schweben/Schweben3.jpeg",
-    "img/schweben/schweben4.jpeg",
+    "img/schweben/Wasserfarbe1.jpeg",
+    "img/schweben/Wasserfarbe2.jpeg",
+    "img/schweben/Wasserfarbe3.jpeg",
     "img/schweben/Schweben.jpg",
-    "img/schweben/Sommer See.jpg",
+    "img/schweben/Sommersee.jpeg",
     "img/schweben/IMG_5_schweben.png",
     "img/schweben/IMG_6_schweben.png",
-    "img/schweben/IMG_4104.jpeg",
-    "img/schweben/IMG_4074.jpeg",
+    "img/schweben/Ausstellungswand.png",
 
 
 ];

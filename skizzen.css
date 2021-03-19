@@ -1,13 +1,17 @@
 *{
     box-sizing: inherit;
     padding: 0;
-    margin: 0;
+    /* margin: 0; */
+}
+.skizzen {
+    margin: auto;
+
 }
 .skizzen img{
-    width:30%;
+    width:19.5%;
     justify-content: space-between; /*will push content on left and right side to the far edges and have an even space between*/
-    align-items: center;
-    padding: 5% 5%;
-    display: inline;
+    /* align-items: center; */
+    /* padding: 5% 5%; */
+    /* display: inline; */
 
 }
