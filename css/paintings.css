@@ -1,0 +1,94 @@
+.redirect-portfolio a{
+    font-family: 'Playfair Display', serif;
+    margin: 2% 2% 5%;
+    text-align: left;
+    display: inline;
+    font-size: 100% ;
+    padding-top: 4%;
+    padding-bottom: 2%; 
+    color: black;
+}
+.paintings-header{
+    font-family: 'Playfair Display', serif;
+    margin: 4% auto 2% auto;
+    text-align: center;
+    display: block;
+    font-size: 200% ;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.group-all-images{
+    margin-top: 2%;
+    margin-bottom: 9%;
+}
+.group-four-images{
+    margin-left: 5% ; 
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    padding: 0;
+    justify-content: space-between;}
+
+.group-three-images{
+    margin-left: 5% ; 
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    padding: 0;
+    justify-content: space-between;}
+
+.group-two-images{
+    margin-left: 5% ; 
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    padding: 0;
+    justify-content: space-between;
+}
+.group-images{
+    margin: 1.5% ; 
+    display: grid;
+    grid-template-columns: repeat(1,minmax(0,1fr));
+    padding: 0;
+    justify-content: space-between;
+}
+.card-images{
+width: 90%;
+max-height: fit-content;
+margin: auto;
+padding-bottom: 2.5%;
+text-align: center;
+}
+
+.card-images img:hover {
+  
+    -webkit-transform: translate(0px, -2px);
+    -ms-transform: translate(0px, -2px);
+        transform: translate(0px, -2px);
+-webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+        box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+}
+.container_portfolio_web {
+    margin-top: 5%;
+}
+hr {
+width: 87%;
+margin: 10px auto 10px auto;
+border: 0.8px solid  rgba(0, 0, 0, 0.2);
+   }
+.untertitel{
+    font-family: 'Playfair Display', serif;
+    margin: 2% 6%;
+    text-align: left;
+    display: inline;
+    font-size: 90%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    padding-left: 0.5vw;
+    color: black;
+}
+.seahorse {
+    margin: 2% 7%;
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+}

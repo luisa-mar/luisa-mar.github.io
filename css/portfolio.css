@@ -1,0 +1,222 @@
+.parent_portfolio_js {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.shape3{
+    position: relative;
+    margin: 5% auto 5% auto;
+    max-width: 90%;
+    display: block;
+}
+.container_arrows{
+  position:relative;
+}
+.portfolio-arrow-left{
+  position:absolute;
+  max-width: 2.6%;
+  margin-top: -30%;
+  margin-left: 35.5%;
+  transform: rotate(270deg);
+}
+ .portfolio-arrow-right{
+  position:absolute;
+  max-width: 2.6%;
+  margin-top: -30%;
+  margin-left: 63.3%;
+  transform: rotate(90deg);
+ }
+.portfolio_js{
+    position:absolute;
+    max-width: 30.52%;
+    margin-top: -52.2%;
+    margin-left: 34.5%;
+    border-style: solid;
+    border-color: rgba(247,231,223,255);
+    border-width: 1%;
+    background-color:rgba(247,231,223,255);
+
+}
+
+.shape3_1{
+    position: absolute;
+    margin-bottom: 5%;
+    margin-top: 9.3%;
+    max-width: 90%;
+    display: block;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.container_portfolio_web {
+    position: relative;
+   margin-right:auto;
+    margin-left: auto;
+    align-items: center;
+    text-align: center;
+    display: block;
+    justify-content: space-between;
+    margin: 10% auto 3% auto;
+}
+
+.shape_and_container{
+  vertical-align:middle;
+  margin-bottom: 4%
+}
+
+.container_portfolio_web img{
+  filter: grayscale(100%);
+}
+
+.part {
+  background-color:rgb(85, 51, 51) ;
+  max-width: 20%;
+  max-height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  overflow: auto;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+  box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);}
+  
+.part a > img {
+    overflow-x:hidden;
+    overflow-y:hidden;
+    max-width: 100%;
+    height: auto;
+
+    /* height: 40vh; */
+    display: block;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.part {
+    display: inline-block;
+    overflow: hidden;
+    justify-content: space-between;
+    margin: 1% 0.5% 1% 0.5%;}
+ 
+.part:hover {
+-webkit-transform: translate(0px, -2px);
+    -ms-transform: translate(0px, -2px);
+        transform: translate(0px, -2px);
+-webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+        box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);}
+.container_portfolio_web :hover{
+  filter: none;
+}
+
+.part-box {
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+.two-links {
+  display: inline;
+  margin-top: 50px;
+  max-width: 100%;
+  font-family: 'Open Sans', sans-serif;   
+  padding: 20px 3% 2% 0%;
+  color: #333;
+}
+.two-links a:hover{
+  display: inline;
+  margin-top: 50px;
+  max-width: 100%;
+  font-family: 'Open Sans', sans-serif;    
+  padding: 20px 3% 2% 0%;
+  color: rgb(104, 64, 12);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EXHIBITION */
+
+.parent_portfolio_js {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.shape3{
+  position: relative;
+  margin: 5% auto 5% auto;
+  max-width: 90%;
+  display: block;
+}
+.container_arrows{
+position:relative;
+}
+.exhibition-arrow-left{
+position:absolute;
+max-width: 2.6%;
+margin-top: -31.4%;
+margin-left: 27.5%;
+transform: rotate(270deg);
+}
+
+.exhibition-arrow-right{
+position:absolute;
+max-width: 2.6%;
+margin-top: -31.4%;
+margin-left: 72.8%;
+transform: rotate(90deg);
+}
+.exhibition_js{
+  position:absolute;
+  max-width: 50%;
+  margin-top: -49.2%;
+  margin-left: 26%;
+  border-style: solid;
+  border-color: rgba(247,231,223,255);
+  border-width: 1%;
+  background-color:rgba(247,231,223,255);
+  background-repeat:no-repeat;
+  background-size: contain;
+
+}

@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+/*     font-family: 'Open Sans', sans-serif; */
+    box-sizing: inherit;
+}
+a {text-decoration: none;}
+
+
+
+
+
+/*Display Products*/
+/*card alignment*/
+ .container {
+    display: flex;
+    justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+margin: 5% 3% 0% 3%;
+
+  }
+  .card {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  width: 35%;
+  max-width: 5  00px;
+  min-width: 262px;
+  max-height: fit-content;
+  margin: auto;
+  margin-bottom: 8%;
+  text-align: center;
+
+  }
+.card-title {
+ margin:auto;
+
+}
+
+
+h6 {
+font-family: 'Open Sans', sans-serif;   margin-top: auto;
+   color:black;
+   text-align: left;
+  font-size: 20px;
+  margin-bottom: 2%;}
+
+.price {
+  color: grey;
+  font-size: 15px;
+  margin: auto;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: 3%;
+}
+.text-card p {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: left;
+  font-size: 14px;
+font-family: 'Open Sans', sans-serif;
+}
+
+img.shoppingbtn {
+  max-width: 30px;
+  /* background-color: rgb(255, 255, 255); */
+  cursor: pointer;
+  max-height: 30px;
+}
+.card img.shoppingbtn {
+  float: right;
+  margin-top: -2.4rem;
+}
+  .card button:hover {
+    opacity: 0.7;
+  }
+ 
+
+
+  /*Cart*/
+  .basket {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 40%;
+    max-width: 100px;
+    min-width: fit-content;
+    max-height: 20%; ;
+    margin: 3% 1% 0 50%;
+    margin-bottom: 5%;
+    text-align: left;
+    font-family: arial;
+    } 
+    
+    .cart-element {
+    display:flex;
+    flex-direction:row;
+justify-content: space-around;
+}
+  
+  .img-cart {
+    display:flex;
+    flex-direction:column;
+    width:20%;
+    margin: 1% 1% 1% 1%;
+  }
+
+  .img-cart img {
+    max-width: 100%;
+    max-height: auto;
+    
+    
+  } 
+
+  .info-cart {
+    width: 60%;
+    display:flex;
+    flex-direction:column;
+    margin: 1% 4% 1% 1%;
+  }
+  .price-cart {
+    width:20%;
+    display:flex;
+    flex-direction:column;
+    text-align: right;
+    margin: 1% 3% 1% 1%;
+  }
+ .remove {
+  width:4%;
+  height:5%;
+  padding: 1.5px 1px;
+  display:flex;
+  color:  lightgray;
+  background-color: none;
+  flex-direction:column;
+  text-align: center;
+  text-decoration: none;
+  margin: 1% 3% 1% 1%;
+ }
+ .checkout{
+  width:20px;
+  height:5%;
+  text-decoration: none;
+  display:flex;
+  color:  lightgray;
+  background-color: none;
+  flex-direction:column;
+  text-align: center;
+  margin: 1% 3% 1% 1%;
+
+ }
+ .zoom {
+   padding: 50px;
+   transition: transform .2s; /* Animation */
+   width: 200px;
+   height: 200px;
+   margin: 0 auto;
+ }
+ 
+ .zoom:hover {
+   transform: scale(1.5); /* (150% zoom)*/
+ }
+
+ 
