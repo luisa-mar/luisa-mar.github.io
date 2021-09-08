@@ -197,16 +197,16 @@ position:absolute;
 max-width: 2.6%;
 margin-top: -31.4%;
 margin-left: 27.5%;
-transform: rotate(270deg);
-}
+/* transform: rotate(270deg);
+ */}
 
 .exhibition-arrow-right{
 position:absolute;
 max-width: 2.6%;
 margin-top: -31.4%;
 margin-left: 72.8%;
-transform: rotate(90deg);
-}
+/* transform: rotate(90deg);
+ */}
 .exhibition_js{
   position:absolute;
   max-width: 50%;
