@@ -16,14 +16,14 @@
   position:absolute;
   max-width: 2.6%;
   margin-top: -30%;
-  margin-left: 35.5%;
+  margin-left: 35%;
   transform: rotate(270deg);
 }
  .portfolio-arrow-right{
   position:absolute;
   max-width: 2.6%;
   margin-top: -30%;
-  margin-left: 63.3%;
+  margin-left: 62.7%;
   transform: rotate(90deg);
  }
 .portfolio_js{
