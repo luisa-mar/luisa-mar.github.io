@@ -355,16 +355,9 @@ display: block;
 }
 .image7{
   position:absolute;
-  margin-top: -31.15%;
-  left:39.5%;
+  margin-top: -31%;
+  left:39.9%;
   max-width: 18%;
-  border-style: solid;
-  border-color: rgba(186,124,106,255);
-  border-width: 1%;
-  background-color: rgba(186,124,106,255);
-  background-repeat: no-repeat;
-  background-size: contain;
-  
 }
 .text9 {
   position: absolute;
