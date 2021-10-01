@@ -339,6 +339,32 @@ display: block;
   position: relative;
   margin-bottom: 10%;
 }
+.rectangle {
+  height: 200px;
+  width: 80%;
+  background-color: #e8c9b0;
+  margin: 20% auto 0 auto;
+  position:relative;
+}
+@media all and (max-width: 2000px) {
+    .rectangle {max-height: 300px;}}
+@media all and (max-width: 1800px) {
+    .rectangle {max-height: 250px;}}
+@media all and (max-width: 1600px) {
+    .rectangle {max-height: 200px;}}
+@media all and (max-width: 1400px) {
+    .rectangle {max-height: 180px;}}
+@media all and (max-width: 1200px) {
+    .rectangle {max-height: 160px;}}
+@media all and (max-width: 1000px) {
+    .rectangle {max-height: 120px;}}
+@media all and (max-width: 800px) {
+    .rectangle {max-height:  90px;}}
+@media all and (max-width: 600px) {
+    .rectangle {max-height:  80px;}}
+@media all and (max-width: 500px) {
+    .rectangle {max-height:  60px;}}
+
 .image5{
   max-width: 84%;
   margin-left:auto;
@@ -349,19 +375,22 @@ display: block;
 }
 .image6{
   position:absolute;
-  margin-top: -31.55%;
+  margin-top: -20%;
   left:17%;
   max-width: 18.8%;
 }
 .image7{
   position:absolute;
-  margin-top: -31%;
+  margin-top: -20%;
   left:39.9%;
   max-width: 18%;
+  border-color: #ba7c6b;
+  border-width: 1%;
+  border-style: solid;
 }
 .text9 {
   position: absolute;
-  margin-top:-29%;
+  margin-top:-18%;
   left: 61.5%;
   font-size: 38px;
   font-weight: 800;
@@ -387,7 +416,7 @@ display: block;
     .text9 {font-size:28px;}}
 .text10 {
   position: absolute;
-  margin-top:-20%;
+  margin-top:-9%;
   margin-right:12%;
   left: 61.5%;
   font-size: 12px;
@@ -403,24 +432,22 @@ display: block;
     .text10 {font-size:14px;}}
 @media all and (max-width: 1200px) {
     .text10 {font-size:11.4px;
-    margin-top: -21%;}}
+    margin-top: -8%;}}
 @media all and (max-width: 1150px) {
     .text10 {font: size 11.3px;
-    margin-top: -21.8%;}}
+    margin-top: -8%;}}
 @media all and (max-width: 1100px) {
     .text10 {font: size 11px;
-    margin-top: -21.2%;}}
+    margin-top: -11%;}}
 @media all and (max-width: 1000px) {
     .text10 {font-size:10px;}}    
-/* @media all and (max-width: 900px) {
-    .text10 {font: size 1px;}} */
 @media all and (max-width: 850px) {
   .text10 {font-size:9px;}}
 @media all and (max-width: 800px) {
     .text10 {font-size:8px;}}
 @media all and (max-width: 700px) {
     .text10 {font: size 7.6px;
-    margin-top: -20.8%;}}
+    margin-top: -8%;}}
 @media all and (max-width: 600px) {
     .text10 {font-size:7px;}}
 @media all and (max-width: 500px) {
@@ -428,7 +455,7 @@ display: block;
 .text11{
   color: black;
   position: absolute;
-  margin-top:-8.4%;
+  margin-top: 2%;
   margin-right:12%;
   left: 61.5%;
   padding: 6px 17px;
