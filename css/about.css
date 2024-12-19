@@ -27,8 +27,8 @@
   color:black;
   font-size: 20px;
   }
-
-
+  <!-- white box at the top of the page --> 
+/*
 .box {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
@@ -37,26 +37,11 @@
   max-height: auto;
   height: 200px;
   margin: -40px 0 0 0;
-  /* margin-bottom: 8%; */
   text-align: center;
   font-family: arial;
   background-color: rgb(248, 246, 246);
-  /* position: absolute; */
-  top: 102px;
+  top: 102px; 
 } 
-  
-.right-flower {
-    position: absolute;
-    right: 0px;
-    top: auto;
-    max-width: 100%;
-}
-.left-flower {
-  position: absolute;
-  left: 0%;
-  top: auto; 
-  max-width: 100%;
-}
 .box img{ 
 max-width: 100%;
 height: 200px;
@@ -71,13 +56,15 @@ clear: right;
   float: left;
   clear: right;
   }
+
+*/
+
 .words {
-    margin-top: 40px;
-    padding-top: 50px;
+    margin: 5%
 }
 .words hr {
     width: 20%;
-    margin: 10px auto 10px auto;
+    margin: auto;
     border: 1px solid #ddd;
 }
 .words p {
@@ -158,19 +145,26 @@ text-justify: inter-character;
 }
 
 
+.download a{
+  padding: 1% 2%;
+  color: white;
+background-color: #333;}
+.download {
+  margin: -10% 0 3% 5%;}
+
   /*Contact*/
 .text-about {
-  margin:3% 0 8% 3%;}
+  margin:3% 0 8% 5%;}
 
  hr {
   width: 95%;
-  margin: 10px auto 10px auto;
+  margin: 1% auto 1% auto;
   border: 1px solid  rgba(0, 0, 0, 0.2);
  }
 
  .email {
  
-  margin-top: 5%;
+  margin-top: 3%;
  }
 .email a{
   padding: 1% 2%;
